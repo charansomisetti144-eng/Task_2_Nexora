@@ -175,7 +175,7 @@ Task_2_Responsive_Ecommerce/
 │
 └── assets/
     └── images/
-        ├── nexora-favicon.png
+        ├── fav.png
         ├── hero.jpg
         ├── laptop.png
         ├── smartphone.png
