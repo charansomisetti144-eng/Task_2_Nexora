@@ -246,8 +246,8 @@ The website successfully demonstrates the required skills:
 
 ## Live Website
 
-**Netlify:**  
-Add your deployed website link here
+**Cloudflare:**  
+https://nexora.charansomisetti56.workers.dev/
 
 ---
 
