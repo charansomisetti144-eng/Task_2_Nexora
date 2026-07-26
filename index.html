@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="NEXORA - Discover premium electronics, smart devices and accessories."
+    />
+
+    <title>NEXORA | Premium Electronics Store</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/fav.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Website content will be added here -->
+    <!-- =========================================
+     PROMOTIONAL BAR
+========================================= -->
+
+    <div class="promo-bar">
+      <div class="container">
+        <p>
+          Free shipping on orders above ₹999
+          <span>•</span>
+          <a href="#products">Shop Now →</a>
+        </p>
+      </div>
+    </div>
+    <!-- =========================================
+     NAVBAR
+========================================= -->
+
+    <nav class="navbar navbar-expand-lg nexora-navbar sticky-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#home"> NEX<span>O</span>RA </a>
+
+        <!-- Mobile Toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home"> Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#products"> Products </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#categories"> Categories </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#deals"> Deals </a>
+            </li>
+          </ul>
+
+          <!-- Cart -->
+          <button class="cart-button" type="button" aria-label="Shopping cart">
+            <i class="bi bi-bag"></i>
+
+            <span>Cart</span>
+
+            <span class="cart-count" id="cartCount"> 0 </span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =========================================
+     HERO SECTION
+========================================= -->
+
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="row align-items-center min-vh-75">
+          <div class="col-lg-6 col-md-8">
+            <div class="hero-content">
+              <!-- Badge -->
+              <span class="hero-badge">
+                <i class="bi bi-stars"></i>
+                New Collection 2026
+              </span>
+
+              <!-- Heading -->
+              <h1 class="hero-title">
+                Technology That
+                <span>Moves With You.</span>
+              </h1>
+
+              <!-- Description -->
+              <p class="hero-description">
+                Discover premium electronics designed to elevate the way you
+                work, connect, create and experience everyday life.
+              </p>
+
+              <!-- Buttons -->
+              <div class="hero-buttons">
+                <a href="#products" class="btn-primary-custom">
+                  Shop Now
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+
+                <a href="#categories" class="btn-outline-custom">
+                  Explore Products
+                </a>
+              </div>
+
+              <!-- Trust Points -->
+              <div class="hero-features">
+                <div class="hero-feature">
+                  <i class="bi bi-truck"></i>
+                  <span>Free Shipping</span>
+                </div>
+
+                <div class="hero-feature">
+                  <i class="bi bi-arrow-repeat"></i>
+                  <span>Easy Returns</span>
+                </div>
+
+                <div class="hero-feature">
+                  <i class="bi bi-shield-check"></i>
+                  <span>Secure Payment</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     CATEGORIES SECTION
+========================================= -->
+
+    <section class="categories-section section-padding" id="categories">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <p class="section-subtitle">Shop by Category</p>
+
+          <h2 class="section-title">Find What Fits Your Lifestyle</h2>
+
+          <p class="section-description">
+            Explore our collection of premium technology designed for work,
+            entertainment and everyday life.
+          </p>
+        </div>
+
+        <!-- Categories -->
+        <div class="row g-4 justify-content-center">
+          <!-- Laptops -->
+          <div class="col-lg col-md-4 col-sm-6">
+            <a href="#products" class="category-card">
+              <div class="category-image">
+                <img src="assets/images/laptop.png" alt="Laptop" />
+              </div>
+
+              <div class="category-content">
+                <h3>Laptops</h3>
+
+                <span>
+                  Shop Now
+                  <i class="bi bi-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Smartphones -->
+          <div class="col-lg col-md-4 col-sm-6">
+            <a href="#products" class="category-card">
+              <div class="category-image">
+                <img src="assets/images/smartphone.png" alt="Smartphone" />
+              </div>
+
+              <div class="category-content">
+                <h3>Smartphones</h3>
+
+                <span>
+                  Shop Now
+                  <i class="bi bi-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Audio -->
+          <div class="col-lg col-md-4 col-sm-6">
+            <a href="#products" class="category-card">
+              <div class="category-image">
+                <img
+                  src="assets/images/headphones.png"
+                  alt="Wireless headphones"
+                />
+              </div>
+
+              <div class="category-content">
+                <h3>Audio</h3>
+
+                <span>
+                  Shop Now
+                  <i class="bi bi-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Wearables -->
+          <div class="col-lg col-md-4 col-sm-6">
+            <a href="#products" class="category-card">
+              <div class="category-image">
+                <img src="assets/images/smartwatch.png" alt="Smartwatch" />
+              </div>
+
+              <div class="category-content">
+                <h3>Wearables</h3>
+
+                <span>
+                  Shop Now
+                  <i class="bi bi-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Accessories -->
+          <div class="col-lg col-md-4 col-sm-6">
+            <a href="#products" class="category-card">
+              <div class="category-image">
+                <img
+                  src="assets/images/accessories.png"
+                  alt="Technology accessories"
+                />
+              </div>
+
+              <div class="category-content">
+                <h3>Accessories</h3>
+
+                <span>
+                  Shop Now
+                  <i class="bi bi-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================
+     FEATURED PRODUCTS
+========================================= -->
+
+    <section class="products-section section-padding" id="products">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <p class="section-subtitle">Featured Products</p>
+
+          <h2 class="section-title">Tech Worth Upgrading To</h2>
+
+          <p class="section-description">
+            Explore our handpicked collection of premium technology built for
+            performance, style and everyday convenience.
+          </p>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="row g-4">
+          <!-- PRODUCT 1 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge"> Bestseller </span>
+
+                <button
+                  class="wishlist-btn"
+                  type="button"
+                  aria-label="Add NexBook Air X1 to wishlist"
+                >
+                  <i class="bi bi-heart"></i>
+                </button>
+
+                <img
+                  src="assets/images/laptop.png"
+                  alt="NexBook Air X1 laptop"
+                />
+              </div>
+
+              <div class="product-content">
+                <p class="product-category">Laptops</p>
+
+                <h3>NexBook Air X1</h3>
+
+                <div class="product-rating">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+
+                  <span>4.8 (124)</span>
+                </div>
+
+                <div class="product-price">
+                  <span class="current-price"> ₹64,999 </span>
+
+                  <span class="old-price"> ₹72,999 </span>
+                </div>
+
+                <button
+                  class="add-cart-btn"
+                  type="button"
+                  data-product="NexBook Air X1"
+                >
+                  <i class="bi bi-bag-plus"></i>
+
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 2 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge sale"> Sale </span>
+
+                <button
+                  class="wishlist-btn"
+                  type="button"
+                  aria-label="Add NovaPhone X to wishlist"
+                >
+                  <i class="bi bi-heart"></i>
+                </button>
+
+                <img
+                  src="assets/images/smartphone.png"
+                  alt="NovaPhone X smartphone"
+                />
+              </div>
+
+              <div class="product-content">
+                <p class="product-category">Smartphones</p>
+
+                <h3>NovaPhone X</h3>
+
+                <div class="product-rating">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+
+                  <span>4.9 (208)</span>
+                </div>
+
+                <div class="product-price">
+                  <span class="current-price"> ₹39,999 </span>
+
+                  <span class="old-price"> ₹44,999 </span>
+                </div>
+
+                <button
+                  class="add-cart-btn"
+                  type="button"
+                  data-product="NovaPhone X"
+                >
+                  <i class="bi bi-bag-plus"></i>
+
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge"> Popular </span>
+
+                <button
+                  class="wishlist-btn"
+                  type="button"
+                  aria-label="Add Pulse Pro to wishlist"
+                >
+                  <i class="bi bi-heart"></i>
+                </button>
+
+                <img
+                  src="assets/images/headphones.png"
+                  alt="Pulse Pro wireless headphones"
+                />
+              </div>
+
+              <div class="product-content">
+                <p class="product-category">Audio</p>
+
+                <h3>Pulse Pro</h3>
+
+                <div class="product-rating">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+
+                  <span>4.6 (96)</span>
+                </div>
+
+                <div class="product-price">
+                  <span class="current-price"> ₹7,999 </span>
+
+                  <span class="old-price"> ₹9,999 </span>
+                </div>
+
+                <button
+                  class="add-cart-btn"
+                  type="button"
+                  data-product="Pulse Pro"
+                >
+                  <i class="bi bi-bag-plus"></i>
+
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 4 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge new"> New </span>
+
+                <button
+                  class="wishlist-btn"
+                  type="button"
+                  aria-label="Add NexaWatch S2 to wishlist"
+                >
+                  <i class="bi bi-heart"></i>
+                </button>
+
+                <img
+                  src="assets/images/smartwatch.png"
+                  alt="NexaWatch S2 smartwatch"
+                />
+              </div>
+
+              <div class="product-content">
+                <p class="product-category">Wearables</p>
+
+                <h3>NexaWatch S2</h3>
+
+                <div class="product-rating">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+
+                  <span>4.7 (156)</span>
+                </div>
+
+                <div class="product-price">
+                  <span class="current-price"> ₹12,999 </span>
+
+                  <span class="old-price"> ₹15,999 </span>
+                </div>
+
+                <button
+                  class="add-cart-btn"
+                  type="button"
+                  data-product="NexaWatch S2"
+                >
+                  <i class="bi bi-bag-plus"></i>
+
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     SPECIAL DEALS
+========================================= -->
+
+    <section class="deals-section" id="deals">
+      <div class="container">
+        <div class="deals-wrapper">
+          <div class="row align-items-center g-4">
+            <!-- Left Content -->
+            <div class="col-lg-7">
+              <div class="deals-content">
+                <span class="deals-label">
+                  <i class="bi bi-lightning-charge-fill"></i>
+                  Limited Time Offer
+                </span>
+
+                <h2>
+                  Upgrade Your Tech.
+                  <span>Save More.</span>
+                </h2>
+
+                <p>
+                  Enjoy exclusive savings on selected electronics and
+                  accessories. Premium technology is now closer than ever.
+                </p>
+
+                <!-- Deal Benefits -->
+                <div class="deal-features">
+                  <span>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Selected Products
+                  </span>
+
+                  <span>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Limited Time
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Offer -->
+            <div class="col-lg-5">
+              <div class="deal-offer">
+                <p class="deal-small">SAVE UP TO</p>
+
+                <div class="deal-percentage">
+                  <span>30</span>
+                  <div>
+                    <strong>%</strong>
+                    <small>OFF</small>
+                  </div>
+                </div>
+
+                <p class="deal-note">On selected products</p>
+
+                <a href="#products" class="deal-button">
+                  Shop Deals
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     WHY SHOP WITH US
+========================================= -->
+
+    <section class="benefits-section section-padding">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <p class="section-subtitle">Why NEXORA</p>
+
+          <h2 class="section-title">Shopping Made Simple</h2>
+
+          <p class="section-description">
+            From checkout to delivery, we make every step of your shopping
+            experience simple, secure and reliable.
+          </p>
+        </div>
+
+        <!-- Benefits -->
+        <div class="row g-4">
+          <!-- Free Shipping -->
+          <div class="col-lg-3 col-md-6">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="bi bi-truck"></i>
+              </div>
+
+              <h3>Free Shipping</h3>
+
+              <p>Enjoy free delivery on eligible orders above ₹999.</p>
+            </div>
+          </div>
+
+          <!-- Secure Payments -->
+          <div class="col-lg-3 col-md-6">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="bi bi-shield-check"></i>
+              </div>
+
+              <h3>Secure Payments</h3>
+
+              <p>
+                Your transactions are protected with secure payment technology.
+              </p>
+            </div>
+          </div>
+
+          <!-- Easy Returns -->
+          <div class="col-lg-3 col-md-6">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="bi bi-arrow-repeat"></i>
+              </div>
+
+              <h3>Easy Returns</h3>
+
+              <p>
+                Shop confidently with a simple and convenient return experience.
+              </p>
+            </div>
+          </div>
+
+          <!-- Customer Support -->
+          <div class="col-lg-3 col-md-6">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="bi bi-headset"></i>
+              </div>
+
+              <h3>Customer Support</h3>
+
+              <p>
+                Get friendly assistance whenever you need help with your
+                shopping.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     NEWSLETTER
+========================================= -->
+
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-wrapper">
+          <div class="row align-items-center g-4">
+            <!-- Content -->
+            <div class="col-lg-6">
+              <div class="newsletter-content">
+                <span class="newsletter-label">
+                  <i class="bi bi-envelope"></i>
+                  Stay Connected
+                </span>
+
+                <h2>
+                  Get the Latest Tech
+                  <span>Delivered to You.</span>
+                </h2>
+
+                <p>
+                  Subscribe for new product updates, exclusive offers and the
+                  latest technology deals.
+                </p>
+              </div>
+            </div>
+
+            <!-- Form -->
+            <div class="col-lg-6">
+              <form class="newsletter-form" id="newsletterForm" novalidate>
+                <div class="newsletter-input-group">
+                  <i class="bi bi-envelope input-icon"></i>
+
+                  <input
+                    type="email"
+                    id="newsletterEmail"
+                    placeholder="Enter your email address"
+                    aria-label="Email address"
+                  />
+
+                  <button type="submit">
+                    Subscribe
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+
+                <p class="newsletter-message" id="newsletterMessage"></p>
+
+                <p class="newsletter-privacy">
+                  <i class="bi bi-shield-check"></i>
+                  No spam. Unsubscribe anytime.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+     FOOTER
+========================================= -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Brand -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-brand-section">
+              <a href="#home" class="footer-logo"> NEX<span>O</span>RA </a>
+
+              <p>
+                Premium technology designed to make everyday life smarter,
+                simpler and more connected.
+              </p>
+
+              <!-- Social Links -->
+              <div class="social-links">
+                <a href="#" aria-label="Instagram">
+                  <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                  <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="#" aria-label="Twitter">
+                  <i class="bi bi-twitter-x"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shop -->
+          <div class="col-lg-2 col-md-3 col-6">
+            <div class="footer-column">
+              <h3>Shop</h3>
+
+              <ul>
+                <li>
+                  <a href="#products">Laptops</a>
+                </li>
+
+                <li>
+                  <a href="#products">Smartphones</a>
+                </li>
+
+                <li>
+                  <a href="#products">Audio</a>
+                </li>
+
+                <li>
+                  <a href="#products">Wearables</a>
+                </li>
+
+                <li>
+                  <a href="#categories">Accessories</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Help -->
+          <div class="col-lg-2 col-md-3 col-6">
+            <div class="footer-column">
+              <h3>Help</h3>
+
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Order Status</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Company -->
+          <div class="col-lg-2 col-md-3 col-6">
+            <div class="footer-column">
+              <h3>Company</h3>
+
+              <ul>
+                <li><a href="#">About NEXORA</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-lg-2 col-md-3 col-6">
+            <div class="footer-column">
+              <h3>Contact</h3>
+
+              <ul class="footer-contact">
+                <li>
+                  <i class="bi bi-envelope"></i>
+                  support@nexora.demo
+                </li>
+
+                <li>
+                  <i class="bi bi-headset"></i>
+                  Customer Support
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Footer -->
+
+        <div class="footer-bottom">
+          <p>
+            &copy;
+            <span id="currentYear"></span>
+            NEXORA. All rights reserved.
+          </p>
+
+          <p>Designed for a responsive e-commerce experience.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- =========================================
+     CART TOAST NOTIFICATION
+========================================= -->
+
+    <div class="cart-toast" id="cartToast">
+      <div class="toast-icon">
+        <i class="bi bi-check-lg"></i>
+      </div>
+
+      <div class="toast-content">
+        <strong>Added to cart</strong>
+
+        <span id="toastProduct"> Product added successfully. </span>
+      </div>
+
+      <button
+        class="toast-close"
+        id="toastClose"
+        type="button"
+        aria-label="Close notification"
+      >
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
