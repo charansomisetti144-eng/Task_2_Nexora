@@ -254,7 +254,7 @@ Add your deployed website link here
 ## Source Code
 
 **GitHub Repository:**  
-(https://github.com/charansomisetti144-eng/Task_2_Nexora.git)
+https://github.com/charansomisetti144-eng/Task_2_Nexora.git
 
 ---
 
